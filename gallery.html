@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="styles/reset.css" type="text/css" />
+		<link rel="stylesheet" href="styles/fonts.css" type="text/css" />
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+		<title>the WebCopter experiment - gallery</title>
+		<meta property="og:title" content="the WebCopter experiment"/> 
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="http://labs.tonybeltramelli.com/experiment/theWebCopterExperiment/images/preview.jpg"/>
+        <meta property="og:url" content="http://labs.tonybeltramelli.com/experiment/theWebCopterExperiment"/>
+        <meta property="og:site_name" content="labs.tonybeltramelli.com"/>
+       	<meta property="fb:admins" content="1598276721"/>
+	</head>
+	<body>
+		<div id="page">
+			<header>
+				<a href="create">
+					<h1>the <span>WebCopter</span> experiment</h1>
+					<ul>
+						<li>
+							<a class="button" id="wtf" href="#">WTF</a>
+						</li>
+						<li>
+							<a class="button nav" href="create">Create / Fly</a>
+						</li>
+					</ul>
+				</a>
+			</header>
+			<div id="loader">
+				<div></div>
+				<img src="images/loader.gif" alt="loading..."/>
+				<a class="badge" href="http://www.chromeexperiments.com/detail/the-web-copter-experiment/"><img src="http://www.chromeexperiments.com/img/badge-black_black.png" alt="See my Experiment on ChromeExperiments.com" /></a>
+			</div>
+			<div id="gallery">
+				<a class="button" id="random" href="#">Random</a>
+				<h2 class="clear"></h2>
+				<div id="share">
+					Share <a class="button gp" href="#">Google Plus</a>
+					<a class="button tw" href="#">Twitter</a>
+					<a class="button fb" href="#">Facebook</a>
+				</div>
+			</div>
+			<footer>
+				<a class="badge" href="http://www.chromeexperiments.com/detail/the-web-copter-experiment/"><img src="http://www.chromeexperiments.com/img/badge-black_black.png" alt="See my Experiment on ChromeExperiments.com" /></a>
+				<div class="share">
+					<div class="social">
+						<div class="g-plusone" data-size="medium" href="http://labs.tonybeltramelli.com/experiment/theWebCopterExperiment"></div>
+						<div class="fb-like" data-href="http://labs.tonybeltramelli.com/experiment/theWebCopterExperiment" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+					</div>
+					<div class="social">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://labs.tonybeltramelli.com/experiment/theWebCopterExperiment">Tweet</a>
+						<su:badge layout="1" location="http://labs.tonybeltramelli.com/experiment/theWebCopterExperiment"></su:badge>
+					</div>
+				</div>
+				<div class="html5rocks"><a href="https://github.com/tonybeltramelli/The-Web-Copter-Experiment">{ <span>source code</span> }</a></div>
+				<div class="clear"></div>
+			</footer>
+		</div>
+		<footer>
+			<a class="logo" href="http://www.tonybeltramelli.com">{Tony Beltramelli multimedia developer}</a>
+			<div class="copyright">
+				<div class="link">
+					<div>
+						<a href="https://twitter.com/tbeltramelli" class="twitter-follow-button" data-show-count="false">Follow @tbeltramelli</a>
+					</div>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a>
+				</div>
+				<a href="www.tonybeltramelli.com">&copy; Tony Beltramelli - Creative Commons BY-NC-ND 2.0</a>
+				<br />
+			</div>
+			<div class="clear"></div>
+		</footer>
+		<!-- libs -->
+		<script type="text/javascript" src="js/libs/jquery.min.js"></script>
+		<script type="text/javascript" src="js/libs/three.min.js"></script>
+		<!-- classes -->
+		<script type="text/javascript" src="js/class/event/EventDispatcher.js"></script>
+		<script type="text/javascript" src="js/class/display/Materials.js"></script>
+		<script type="text/javascript" src="js/class/display/Aircraft.js"></script>
+		<script type="text/javascript" src="js/class/display/ui/PopInManager.js"></script>
+		<!-- main -->
+		<script type="text/javascript" src="js/gallery.js"></script>
+		<!-- social -->
+		<script type="text/javascript">
+			(function() {
+				var po = document.createElement('script');
+				po.type = 'text/javascript';
+				po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+			})();
+		</script>
+		<div id="fb-root"></div>
+		<script>
+			( function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id))
+						return;
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<script>
+			! function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script>
+		<script type="text/javascript">
+			(function() {
+				var li = document.createElement('script');
+				li.type = 'text/javascript';
+				li.async = true;
+				li.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//platform.stumbleupon.com/1/widgets.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(li, s);
+			})();
+		</script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+		  	_gaq.push(['_setAccount', 'UA-35254499-1']);
+		  	_gaq.push(['_trackPageview']);
+		
+		  	(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  	})();
+		</script>
+	</body>
+</html>

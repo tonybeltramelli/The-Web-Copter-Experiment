@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Michroma';
+	src: url('../fonts/Michroma.eot');
+	src: local('☺'), url('../fonts/Michroma.woff') format('woff'), url('../fonts/Michroma.ttf') format('truetype'), url('../fonts/Michroma.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
